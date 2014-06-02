@@ -2,7 +2,7 @@ var fs = require('fs')
 var path = require("path")
 var async = require("async")
 
-var mkdir = require("./lib/mkdir")
+var mkdir = require("../lib/mkdir")
 
 var Connection = require("ssh2")
 
